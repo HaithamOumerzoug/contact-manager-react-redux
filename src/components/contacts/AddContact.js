@@ -101,5 +101,5 @@ class AddContact extends Component {
   }
 }
 
-//Connect Redux and Component
+// Connect Redux and Component
 export default connect(null,{addContact})(AddContact);

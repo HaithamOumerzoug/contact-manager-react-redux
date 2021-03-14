@@ -5,7 +5,7 @@ import reducersRoot from './reducers'
 
 const initState={}
 
-//Create Contact Store
+// Create Contact Store
 const storeContact=createStore(
     reducersRoot,
     initState,

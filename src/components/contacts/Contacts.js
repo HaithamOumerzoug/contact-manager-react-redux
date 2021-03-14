@@ -40,5 +40,5 @@ const mapStateToProps=(state)=>{
   }
 }*/
 
-//Connect Redux and Component
+// Connect Redux and Component
 export default connect(mapStateToProps,{getContacts})(Contacts);
