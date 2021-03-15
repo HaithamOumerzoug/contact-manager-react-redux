@@ -1,7 +1,7 @@
 <h1 align="center">Contact Manager - React.js</h1>
 <h3 align="center">Contact manager using <b>React.js</b> & <b>Redux</b></h3>
 
-*  Get the project :
+## Get the project :
 ```git
    git clone https://github.com/HaithamOumerzoug/contact-manager-react-redux.git
    cd contact-manager-react-redux
