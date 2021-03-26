@@ -6,7 +6,7 @@ import Contacts from './components/contacts/Contacts';
 import AddContact from './components/contacts/AddContact';
 import EditContact from './components/contacts/EditContact';
 import Header from './components/layout/Header';
-import About from './components/pages/About';
+import GitHub from './components/pages/About';
 import NotFound from './components/pages/NotFound';
 import storeContact from './storeContact'
 
@@ -22,10 +22,10 @@ class App extends Component {
             <Header branding="Contact Manager" />
             <div className="container">
               <Switch>
-                <Route exact path="contact-manager-react-redux/" component={Contacts} />
-                <Route exact path="contact-manager-react-redux/contact/add" component={AddContact} />
-                <Route exact path="contact-manager-react-redux/contact/edit/:id" component={EditContact} />
-                <Route exact path="contact-manager-react-redux/about" component={About} />
+                <Route exact path="/contact-manager-react-redux/" component={Contacts} />
+                <Route exact path="/contact-manager-react-redux/contact/add" component={AddContact} />
+                <Route exact path="/contact-manager-react-redux/contact/edit/:id" component={EditContact} />
+                <Route exact path="/contact-manager-react-redux/github" component={GitHub} />
                 <Route component={NotFound} />
               </Switch>
             </div>
