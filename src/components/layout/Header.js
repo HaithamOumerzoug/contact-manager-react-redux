@@ -13,10 +13,10 @@ const Header = props => {
         <div>
           <ul className="navbar-nav mr-auto">
             <li className="nav-item">
-              <Link to="/" className="nav-link">Home</Link>
+              <Link to="/contact-manager-react-redux/" className="nav-link">Home</Link>
             </li>
             <li className="nav-item">
-              <Link to="/contact/add" className="nav-link">Add Contact</Link>
+              <Link to="/contact-manager-react-redux/contact/add" className="nav-link">Add Contact</Link>
             </li>
             <li className="nav-item">
               <Link to="https://github.com/HaithamOumerzoug/contact-manager-react-redux" className="nav-link">GitHub</Link>
