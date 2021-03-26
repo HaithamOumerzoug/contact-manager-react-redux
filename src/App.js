@@ -22,10 +22,10 @@ class App extends Component {
             <Header branding="Contact Manager" />
             <div className="container">
               <Switch>
-                <Route exact path="/" component={Contacts} />
-                <Route exact path="/contact/add" component={AddContact} />
-                <Route exact path="/contact/edit/:id" component={EditContact} />
-                <Route exact path="/about" component={About} />
+                <Route exact path="contact-manager-react-redux/" component={Contacts} />
+                <Route exact path="contact-manager-react-redux/contact/add" component={AddContact} />
+                <Route exact path="contact-manager-react-redux/contact/edit/:id" component={EditContact} />
+                <Route exact path="contact-manager-react-redux/about" component={About} />
                 <Route component={NotFound} />
               </Switch>
             </div>
