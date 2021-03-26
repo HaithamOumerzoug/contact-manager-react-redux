@@ -19,7 +19,7 @@ const Header = props => {
               <Link to="/contact-manager-react-redux/contact/add" className="nav-link">Add Contact</Link>
             </li>
             <li className="nav-item">
-              <Link to="https://github.com/HaithamOumerzoug/contact-manager-react-redux" className="nav-link">GitHub</Link>
+              <Link to="/contact-manager-react-redux/about" className="nav-link">About</Link>
             </li>
           </ul>
         </div>
