@@ -1,4 +1,5 @@
 {
+  "homepage": "https://HaithamOumerzoug.github.io/contact-manager-react-redux",
   "name": "contact-manager-react-redux",
   "author": "Haitham OUMERZOUG",
   "version": "0.1.0",
@@ -17,6 +18,8 @@
     "uuid": "^3.3.2"
   },
   "scripts": {
+    "predploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
