@@ -16,7 +16,6 @@ class AddContact extends Component {
 
   onSubmit = (e) => {
     e.preventDefault();
-
     const { name, email, phone } = this.state;
 
     // Validation Form
@@ -51,7 +50,7 @@ class AddContact extends Component {
       errors: {}
     });
 
-    this.props.history.push('/');
+    this.props.history.push('/contact-manager-react-redux');
   };
 
   onChange = e => this.setState({ [e.target.name]: e.target.value });
