@@ -70,7 +70,7 @@ class EditContact extends Component {
     });
 
     //Back Home
-    this.props.history.push('/');
+    this.props.history.push('/contact-manager-react-redux');
   };
 
   //On Change Form Value
