@@ -2,7 +2,7 @@
   "homepage": "https://HaithamOumerzoug.github.io/contact-manager-react-redux",
   "name": "contact-manager-react-redux",
   "author": "Haitham OUMERZOUG",
-  "version": "0.1.0",
+  "version": "1.1.3",
   "private": true,
   "dependencies": {
     "axios": "^0.18.0",
