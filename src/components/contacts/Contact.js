@@ -18,7 +18,7 @@ class Contact extends Component {
       <div className="card card-body mb-3">
         <h4>
           {name}{' '}
-          <i
+          {/*<i
             onClick={() =>
               this.setState({
                 showContactInfo: !this.state.showContactInfo
@@ -26,7 +26,7 @@ class Contact extends Component {
             }
             className="fas fa-sort-down"
             style={{ cursor: 'pointer' }}
-          />
+          />*/}
           <i
             className="fas fa-times"
             style={{ cursor: 'pointer', float: 'right', color: 'red' }}
